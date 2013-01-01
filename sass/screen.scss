@@ -7,18 +7,20 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 #header {
 	color:$anti-color;
 	background:$header-background;
-	text-align:right;
 
 	h1 { margin:0; color:#1fc0d7; }
 	#contact { margin-bottom:30px; }
-	ul { list-style:none; font-size:0.8em; }
+	ul { padding:0; list-style:none; font-size:0.8em; }
 	a { border:0; }
+	li { display:inline-block; margin-right:$text-padding*2; }
 }
 
 #nav {
 	display:inline-block;
 	border-top:1px dashed lighten($header-background, 7);
 	text-transform:lowercase;
+
+	ul { margin-bottom:0; }
 }
 
 #body {
@@ -29,7 +31,14 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 @media ( min-width: 850px ) {
 	// full height column crap
 	body { background:$header-background; }
-	#header { float:left; width:30%; background:none; }
+	#header {
+		float:left;
+		width:30%;
+		background:none;
+		text-align:right;
+
+		li { display:block; margin-right:0; }
+	}
 	#body-wrap { float:left; width:70%; min-height:100%; background:$page-background; }
 	// full height column crap
 }
