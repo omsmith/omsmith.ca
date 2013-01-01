@@ -1,0 +1,31 @@
+#!/bin/bash
+
+TEMPLATE_FILE=$1
+PAGES_DIR=$2
+OUTPUT_DIR=$3
+
+TEMPLATE=`cat $TEMPLATE_FILE`
+
+for f in $PAGES_DIR/*
+do
+	TITLE=(`sed -n '2p' $f | tr ": " "\n"`)
+	TITLE=${TITLE[1]}
+
+	if [ $TITLE = "notitle" ]; then
+		TITLE=""
+	else
+		TITLE=" | $TITLE"
+	fi
+
+	CONTENT=`tail -n +4 $f`
+
+	TITLE_MATCH="{{PAGE_TITLE}}"
+	CONTENT_MATCH="{{PAGE_CONTENT}}"
+
+	PAGE=${TEMPLATE/$TITLE_MATCH/$TITLE}
+	PAGE=${PAGE/$CONTENT_MATCH/$CONTENT}
+
+	OUTPUT_FILE=$OUTPUT_DIR/`basename $f`
+
+	echo $PAGE > $OUTPUT_FILE
+done
