@@ -51,4 +51,4 @@ h1, h2, h3, h4, h5, h6 {
 
 // non-semantic
 .clearfix { clear:both; }
-.text-pad { padding:15px; }
+.text-pad { padding:$text-padding; }
