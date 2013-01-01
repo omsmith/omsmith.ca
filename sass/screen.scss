@@ -24,7 +24,6 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 }
 
 #body {
-	max-width:50em;
 	color:$color;
 }
 
@@ -40,6 +39,7 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 		li { display:block; margin-right:0; }
 	}
 	#body-wrap { float:left; width:70%; min-height:100%; background:$page-background; }
+	#body { max-width:550px; }
 	// full height column crap
 }
 
