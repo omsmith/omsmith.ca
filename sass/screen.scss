@@ -27,6 +27,18 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 	color:$color;
 }
 
+img {
+	border:5px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	box-shadow: 0px 0px 5px #333333;
+}
+img.right {
+	float:right;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
 @media ( min-width: 850px ) {
 	// full height column crap
 	body { background:$header-background; }

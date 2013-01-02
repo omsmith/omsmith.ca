@@ -1,0 +1,8 @@
+#!/bin/bash
+
+IMAGES_DIR=$1
+OUTPUT_DIR=$2
+
+# copy files initially
+cp $IMAGES_DIR/*.jpg $OUTPUT_DIR
+jpegoptim --strip-all -o --dest=$OUTPUT_DIR $IMAGES_DIR/*.jpg
