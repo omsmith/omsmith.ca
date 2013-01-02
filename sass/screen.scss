@@ -25,6 +25,13 @@ body { background:$page-background; font-family:'PT Serif', serif; }
 
 #body {
 	color:$color;
+
+	section {
+		padding-top: 10px;
+		border-top:1px dashed darken($page-background, 15);
+
+		h1 { display:inline; }
+	}
 }
 
 img {
