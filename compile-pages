@@ -27,5 +27,5 @@ do
 
 	OUTPUT_FILE=$OUTPUT_DIR/`basename $f`
 
-	echo $PAGE > $OUTPUT_FILE
+	echo "$PAGE" > $OUTPUT_FILE
 done
