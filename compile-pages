@@ -17,12 +17,24 @@ do
 		TITLE=" | $TITLE"
 	fi
 
-	CONTENT=`tail -n +4 $f`
+	STYLE=(`sed -n '3p' $f | tr ": " "\n"`)
+	STYLE=${STYLE[1]}
+
+	if [ $STYLE = "nostyle" ]; then
+		STYLE=""
+	else
+		STYLE="<link rel=\"stylesheet\" href=\"http://static.omsmith.ca/$STYLE\">"
+	fi
+
+
+	CONTENT=`tail -n +5 $f`
 
 	TITLE_MATCH="{{PAGE_TITLE}}"
+	STYLE_MATCH="{{STYLE_EXTRA}}"
 	CONTENT_MATCH="{{PAGE_CONTENT}}"
 
 	PAGE=${TEMPLATE/$TITLE_MATCH/$TITLE}
+	PAGE=${PAGE/$STYLE_MATCH/$STYLE}
 	PAGE=${PAGE/$CONTENT_MATCH/$CONTENT}
 
 	OUTPUT_FILE=$OUTPUT_DIR/`basename $f`
