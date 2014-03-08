@@ -5,7 +5,8 @@
   "main": "",
   "dependencies": {},
   "devDependencies": {
-    "xcss": "~1.2.4"
+    "xcss": "~1.2.4",
+    "autoprefixer": "^1.1.20140302"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
