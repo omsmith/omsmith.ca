@@ -10,6 +10,7 @@ img {
 	extend: %float-right;
 
 	max-width: 40vw;
+	border-radius: 10px;
 }
 
 [dir="rtl"] img {
