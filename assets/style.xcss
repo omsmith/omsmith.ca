@@ -8,6 +8,8 @@
 
 img {
 	extend: %float-right;
+
+	max-width: 40vw;
 }
 
 [dir="rtl"] img {
