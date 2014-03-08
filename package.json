@@ -1,0 +1,23 @@
+{
+  "name": "omsmith.ca",
+  "version": "0.0.0",
+  "description": "Personal website",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "xcss": "~1.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/omsmith/omsmith.ca.git"
+  },
+  "author": "Owen Smith <owen@omsmith.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omsmith/omsmith.ca/issues"
+  },
+  "homepage": "https://github.com/omsmith/omsmith.ca"
+}

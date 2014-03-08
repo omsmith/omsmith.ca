@@ -1,0 +1,6 @@
+:root {
+	var-base-colour: #444444;
+	var-light-colour: #aaaaaa;
+	var-hilight-colour: #1fc0d7;
+	var-shadow-colour: #666666;
+}
