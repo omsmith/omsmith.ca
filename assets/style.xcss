@@ -1,2 +1,15 @@
 @import "./base.xcss";
 @import "./nav.xcss";
+@import "./sizing.xcss";
+
+.page-content {
+	extend: %content-wrapper;
+}
+
+img {
+	extend: %float-right;
+}
+
+[dir="rtl"] img {
+	extend: %float-left;
+}

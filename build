@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -rf ./dist
+
+./node_modules/.bin/metalsmith
+ln -s about/index.html dist/index.html
+
+mkdir -p dist/assets
+./node_modules/.bin/xcss assets/style.xcss > dist/assets/style.css && ./node_modules/.bin/autoprefixer dist/assets/*.css
+cp assets/*.{jpg,png} dist/assets
