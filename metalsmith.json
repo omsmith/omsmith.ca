@@ -1,0 +1,14 @@
+{
+  "metadata": {},
+  "source": "pages",
+  "destination": "dist",
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}

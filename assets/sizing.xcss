@@ -1,0 +1,11 @@
+:root {
+	var-page-width: 800px;
+	var-small-break-width: 500px;
+}
+
+%content-wrapper {
+	position: relative;
+	max-width: var(page-width);
+	margin: 0 auto;
+	padding: 0 10px;
+}

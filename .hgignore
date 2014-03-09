@@ -1,5 +1,0 @@
-syntax: glob
-.sass-cache
-www
-www-static
-*.swp

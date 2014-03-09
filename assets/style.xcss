@@ -1,0 +1,50 @@
+@import "./base.xcss";
+@import "./nav.xcss";
+@import "./sizing.xcss";
+
+.page-content {
+	extend: %content-wrapper;
+}
+
+img {
+	extend: %float-right;
+
+	max-width: 40vw;
+	border-radius: 10px;
+}
+
+[dir="rtl"] img {
+	extend: %float-left;
+}
+
+.resume h2 {
+	extend: .offscreen;
+}
+
+.resume h4 {
+	extend: %float-left;
+	clear: both;
+	margin-bottom: 3px;
+}
+
+[dir="rtl"] .resume h4 {
+	extend: %float-right;
+}
+
+.resume .date {
+	extend: %float-right;
+	margin: 0;
+}
+
+[dir="rtl"] .resume .date {
+	extend: %float-left;
+}
+
+.resume .details {
+	clear: both;
+}
+
+.resume .date,
+.resume .details {
+	font-size: 0.8em;
+}

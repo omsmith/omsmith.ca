@@ -1,0 +1,23 @@
+:root {
+	var-float-spacing: 10px;
+}
+
+.offscreen {
+	position: absolute;
+	display: inline-block;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+%float-right {
+	float: right;
+	margin: 0 0 var(float-spacing) var(float-spacing);
+}
+
+%float-left {
+	float: left;
+	margin: 0 var(float-spacing) var(float-spacing) 0;
+}
