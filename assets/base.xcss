@@ -37,3 +37,7 @@ a:active {
 	position: relative;
 	top: 1px;
 }
+
+p, ul {
+	margin-top: 0;
+}
