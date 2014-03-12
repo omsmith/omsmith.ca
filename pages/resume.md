@@ -22,7 +22,7 @@ class: resume
 
 *   Designed and built a distributable re-architecture for a product as part of a team
 *   Facilitated the transition from Subversion to Mercurial as a source code repository
-*   Created internal build / continuous integration tools to ease transitions between devlopment and testing; eliminated 30min+ wait-times and greatly reduced deployment failures
+*   Created internal build / continuous integration tools to ease transitions between development and testing; eliminated 30min+ wait-times and greatly reduced deployment failures
 
 #### Web Developer (PHP)
 <p class="date">May 2011 - Dec. 2011</p>
