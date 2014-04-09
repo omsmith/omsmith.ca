@@ -6,14 +6,34 @@ class: resume
 
 ### Skills
 
-*   Excellent working knowledge of C++, C# and (X)HTML/CSS/PHP developed through usage in professional, academic and personal projects
+*   Excellent working knowledge of JavaScript, C#, C++ and HTML5/CSS developed through usage in professional, academic and personal projects
 *   Well developed understanding of programming concepts and techniques in a variety of languages
+*   Regular contributor to open-source software
+*   Pragmatic believer in behaviour-driven development (BDD)
 *   Intermediate Unix experience
 *   Fast-paced, adaptive learner
-*   Outgoing, personable, and committed worker
+*   Outgoing, personable and committed worker
 
 
 ### Work Experience
+
+#### Software Developer
+<p class="date">Nov. 2013 - present</p>
+
+<p class="details">_Seferral Incorporated_</p>
+
+*   Architected data encryption strategies for private and secure information storage
+*   Interfaced with modern &ldquo;NoSQL&rdquo; document databases including Couchbase and CouchDB
+
+#### Software Developer
+<p class="date">Sept. 2013 - present</p>
+
+<p class="details">_Desire2Learn Incorporated_</p>
+
+*   Created client-side web applications using technologies such as AngularJS, Browserify and Grunt
+*   Delivered backend application components following a service-oriented architecture model
+*   Integrated a variety tools to enable automatic service discovery between isolated applications
+*   Built high-performance, light-weight and scalable applications with Node.js
 
 #### Software Developer
 <p class="date">Jan. 2012 - May 2013</p>
