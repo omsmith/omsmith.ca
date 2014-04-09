@@ -57,7 +57,7 @@ class: resume
 ### Education
 
 #### Candidate for Bachelor of Computer Science
-<p class="date">Sept. 2010 - present</p>
+<p class="date">Sept. 2010 - Aug. 2013</p>
 
 <p class="details">_Honours Computer Science, University of Waterloo, Waterloo, ON_</p>
 
