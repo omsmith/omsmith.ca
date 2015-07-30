@@ -17,23 +17,26 @@ class: resume
 
 ### Work Experience
 
+
+
 #### Software Developer
-<p class="date">Nov. 2013 - present</p>
+<p class="date">Sept. 2013 - present</p>
+
+<p class="details">_D2L Corporation_</p>
+
+*   Created client-side web applications using technologies such as AngularJS, Browserify and Gulp
+*   Delivered backend application components following a microservice model
+*   Integrated a variety tools to enable automatic service discovery between isolated applications
+*   Built high-performance, light-weight and scalable applications with Node.js
+*	Assisted and guided the development of an OAuth2 authentication framework for both mobile and server
+
+#### Software Developer
+<p class="date">Nov. 2013 - Dec. 2014</p>
 
 <p class="details">_Seferral Incorporated_</p>
 
 *   Architected data encryption strategies for private and secure information storage
 *   Interfaced with modern &ldquo;NoSQL&rdquo; document databases including Couchbase and CouchDB
-
-#### Software Developer
-<p class="date">Sept. 2013 - present</p>
-
-<p class="details">_Desire2Learn Incorporated_</p>
-
-*   Created client-side web applications using technologies such as AngularJS, Browserify and Grunt
-*   Delivered backend application components following a service-oriented architecture model
-*   Integrated a variety tools to enable automatic service discovery between isolated applications
-*   Built high-performance, light-weight and scalable applications with Node.js
 
 #### Software Developer
 <p class="date">Jan. 2012 - May 2013</p>
