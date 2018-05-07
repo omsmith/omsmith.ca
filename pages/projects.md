@@ -22,7 +22,7 @@ Playing with this came up after reading [another expierment][man in blue webaudi
 
 [webaudio source]: https://bitbucket.org/omsmith/js-webaudio-waveforms
 [webaudio image]: /assets/webaudio.png
-[webaudio apis]: http://www.html5rocks.com/en/tutorials/webaudio/intro/
+[webaudio apis]: https://www.html5rocks.com/en/tutorials/webaudio/intro/
 [man in blue webaudio]: http://www.themaninblue.com/writing/perspective/2012/09/18/
 
 
@@ -33,14 +33,14 @@ While I'd been following [meteor][] since it was initially announced, I hadn't f
 
 [stm source]: https://bitbucket.org/omsmith/meteor-stm
 [stm image]: /assets/stm.png
-[meteor]: http://meteor.com
+[meteor]: https://www.meteor.com/
 
 
 ### <abbr title="Computer Science Club">CSC</abbr> point-of-sales client [(source)][pos client source]
 
 Built out a web-based front-end for the POS. Submits transactions using Apache Thrift in JavaScript to a middle-man validator before hitting the backend server. Retrieves product information through cached requests to a third-party service for UPC search. Price is retrieved from the point-of-sales system. The UI was built out using Knockout.js for easy data-bound page updates.
 
-[pos client source]: http://git.csclub.uwaterloo.ca/?p=omsmith/pos-js.git;a=summary
+[pos client source]: https://git.csclub.uwaterloo.ca/?p=omsmith/pos-js.git;a=summary
 
 
 ### Orientation leader scheduler [<span class="fa fa-bitbucket"></span><span class="offscreen">(source)</span>][leader scheduler source]
@@ -70,4 +70,4 @@ During the hackathon at <abbr title="Canadian Undergraduate Technology Conferenc
 
 Contributed to some backend work on the point-of-sales system in the Computer Science Club. Makes for secure transactions against user accounts using Apache Thrift.
 
-[pos server source]: http://git.csclub.uwaterloo.ca/?p=public/pos.git;a=summary
+[pos server source]: https://git.csclub.uwaterloo.ca/?p=public/pos.git;a=summary
